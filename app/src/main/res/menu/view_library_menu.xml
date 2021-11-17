@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/library_action_search"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.widget.SearchView"/>
+
+    <item android:id="@+id/library_search_criteria"
+        android:icon="@drawable/ic_search_settings"
+        android:title="Search settings"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@+id/library_by_author"
+                android:title="Author"/>
+
+            <item android:id="@+id/library_by_title"
+                android:title="Title"/>
+
+            <item android:id="@+id/library_by_genre"
+                android:title="Genre"/>
+
+            <item android:id="@+id/library_by_status"
+                android:title="Status"/>
+
+            <item android:id="@+id/library_by_year"
+                android:title="Year"/>
+
+            <item android:id="@+id/library_by_isbn"
+                android:title="ISBN"/>
+        </menu>
+    </item>
+</menu>

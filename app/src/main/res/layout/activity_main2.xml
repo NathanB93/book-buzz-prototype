@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#82A7FF"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/main_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/library_app_name"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="87dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <Button
+            android:id="@+id/view_read_history_button"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:text="@string/view_read_history"
+            android:drawableTop="@drawable/ic_baseline_history_24" />
+
+        <Button
+            android:id="@+id/set_reminder_button"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/reminder_button"
+            android:textSize="12sp"
+            android:padding="5sp"
+            android:drawableTop="@drawable/ic_baseline_notifications_active_24" />
+
+        <Button
+            android:id="@+id/view_library_button"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/view_library"
+            android:textSize="12sp"
+            android:drawableTop="@drawable/ic_baseline_library_books_24" />
+
+        <Button
+            android:id="@+id/add_new_book_button"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/add_new_book"
+            android:textSize="12sp"
+            android:drawableTop="@drawable/ic_baseline_add_box_24" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_title">
+
+        <EditText
+            android:id="@+id/main_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="Author/Title"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/search_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/search_btn" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="200dp"
+        android:layout_height="392dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/currently_reading"
+            android:textSize="24sp" />
+
+
+        <ImageView
+            android:id="@+id/current_book"
+            android:layout_width="match_parent"
+            android:layout_height="222dp"
+            android:src="@drawable/life_the_universe_and_everything" />
+
+        <Button
+            android:id="@+id/current_book_button"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+
+
+            android:text="@string/set_current_book" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="110dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/add_note_main"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:text="@string/add_new_note" />
+
+        <Button
+            android:id="@+id/view_notes_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/view_current_notes" />
+
+        <Button
+            android:id="@+id/set_page_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/set_page" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

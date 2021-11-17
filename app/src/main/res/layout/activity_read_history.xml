@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReadHistory"
+    android:background="#82A7FF">
+
+    <TextView
+        android:id="@+id/read_history_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/read_history"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/history_image1"
+        android:layout_width="110dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/read_history_title1"
+        app:srcCompat="@drawable/hitchhikers_guide" />
+
+    <TextView
+        android:id="@+id/start_date1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/start_date1"
+        app:layout_constraintStart_toEndOf="@+id/history_image1"
+        app:layout_constraintTop_toBottomOf="@+id/read_history_title1" />
+
+    <TextView
+        android:id="@+id/end_date1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/finish_date1"
+        app:layout_constraintStart_toEndOf="@+id/history_image1"
+        app:layout_constraintTop_toBottomOf="@+id/start_date1" />
+
+    <TextView
+        android:id="@+id/read_history_rating1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/your_rating"
+        app:layout_constraintStart_toEndOf="@+id/history_image1"
+        app:layout_constraintTop_toBottomOf="@+id/end_date1" />
+
+    <TextView
+        android:id="@+id/read_history_title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="@string/title1"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/read_history_instructions" />
+
+    <TextView
+        android:id="@+id/read_history_instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/read_history_subtitle"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/read_history_title" />
+
+    <ImageView
+        android:id="@+id/history_image2"
+        android:layout_width="110dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/read_history_title2"
+        app:srcCompat="@drawable/restaurant_at_the_end_of_the_universe" />
+
+    <TextView
+        android:id="@+id/read_history_title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="@string/title2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/history_image1" />
+
+    <TextView
+        android:id="@+id/start_date2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/start_date1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/history_image2"
+        app:layout_constraintTop_toBottomOf="@+id/read_history_title2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/end_date2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/finish_date1"
+        app:layout_constraintStart_toEndOf="@+id/history_image2"
+        app:layout_constraintTop_toBottomOf="@+id/start_date2" />
+
+    <TextView
+        android:id="@+id/history_rating2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/your_rating"
+        app:layout_constraintStart_toEndOf="@+id/history_image2"
+        app:layout_constraintTop_toBottomOf="@+id/end_date2" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="87dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/view_library_rh"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_baseline_library_books_24"
+            android:text="View Library"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/set_reminder_rh"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_baseline_notifications_active_24"
+            android:padding="5sp"
+            android:text="Set Reminder"
+            android:textSize="12sp" />
+
+
+        <Button
+            android:id="@+id/home__rh"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_baseline_home_24"
+
+            android:text="Home"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/view_notes_rh"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_baseline_add_box_24"
+
+            android:text="View Notes"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

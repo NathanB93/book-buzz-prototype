@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bookbuzz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_book_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_book_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BookBuzz">
+        <activity android:name=".ScanBook"></activity>
+        <activity android:name=".ReadHistory" />
+        <activity android:name=".ViewLibrary" />
+        <activity android:name=".SearchDatabase" />
+        <activity android:name=".Reminder" />
+        <activity android:name=".ViewNotes" />
+        <activity android:name=".AddNewBook" />
+        <activity android:name=".EnterBookDetails" />
+        <activity android:name=".AddNote" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".AlertReceiver" />
+
+        <activity
+            android:name=".ViewBook"
+            android:parentActivityName=".ViewLibrary" />
+        <activity android:name=".SetStatus" />
+        <activity
+            android:name=".ViewBookDatabase"
+            android:parentActivityName=".SearchDatabase" />
+    </application>
+
+</manifest>

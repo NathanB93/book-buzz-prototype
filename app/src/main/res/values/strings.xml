@@ -1,0 +1,111 @@
+<resources>
+    <string name="read_check">Read</string>
+    <string name="reading_check">Reading</string>
+    <string name="want_check">Want to read:</string>
+    <string name="add_by_barcode">Scan barcode</string>
+    <string name="add_manually">Add manually</string>
+    <string name="find_book_label">Find Book:</string>
+    <string name="find_book_hint">Search our database</string>
+    <string name="app_name">Book Buzz</string>
+    <string name="search_btn">Search</string>
+    <string name="Enter_search">Enter Search</string>
+    <string name="filter_search">Filter Search</string>
+    <string name="add_book_btn">Add Book</string>
+    <string name="enter_author">Search by author</string>
+    <string name="enter_title">Search by title</string>
+    <string name="enter_genre">Search by genre</string>
+    <string name="enter_year">Search by year</string>
+    <string name="enter_subject">Search by subject</string>
+    <string name="enter_fiction">Fiction or non-fiction</string>
+    <string name="Enter_search1">Search</string>
+    <string name="title1">The Hitchhikers Guide To The Galaxy</string>
+    <string name="author">Author: Douglas Adams</string>
+    <string name="title2">The Restaurant At The End Of The Universe</string>
+    <string name="title3">Life, The Universe And Everything</string>
+    <string name="fiction">Fiction</string>
+    <string name="recommendations">Books related to your search</string>
+    <string name="rating1">Rated: 4/5</string>
+    <string name="rating2">Rated: 4.5/5</string>
+    <string name="rating3">Rated: 3/5</string>
+    <string name="addbtn">Add to library</string>
+    <string name="library_app_name">Book Buzz</string>
+    <string name="currently_reading">Your current book</string>
+    <string name="last_book">Last Read</string>
+    <string name="add_new_note">Add New Note</string>
+    <string name="view_current_notes">View Notes</string>
+    <string name="set_page">Set Page</string>
+    <string name="set_current_book">Set Your Current Book</string>
+    <string name="reminder_button">Set Reminder</string>
+    <string name="view_library">View Library</string>
+    <string name="add_new_book">Add Book</string>
+    <string name="new_note_title">Add new note:</string>
+    <string name="book_title">\"Book Name\"</string>
+    <string name="note_for_page_number">Note for page:</string>
+    <string name="note_entry">Enter Note</string>
+    <string name="submit_button">Submit</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="notes">Notes</string>
+    <string name="date_placeholder1">12/12/21</string>
+    <string name="date_placeholder2">11/11/21</string>
+    <string name="date_placeholder3">10/10/21</string>
+    <string name="date_placeholder">09/09/21</string>
+    <string name="note_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum</string>
+    <string name="add_book_title">Add New Book</string>
+    <string name="create_book">Create a new book:</string>
+    <string name="title">Title:</string>
+    <string name="author_default">Author:</string>
+    <string name="no_of_pages">Pages:</string>
+    <string name="Enter_title">Book Title</string>
+    <string name="Enter_author">Author</string>
+    <string name="pages">No. of pages</string>
+    <string name="upload_btn">Upload Cover Art</string>
+    <string name="optional_details">Optional Details</string>
+    <string name="genre">Genre:</string>
+    <string name="Enter_genre">Book genre</string>
+    <string-array name="find_book_spinner">
+        <item>Genre</item>
+        <item>Title</item>
+        <item>Year</item>
+        <item>Publisher</item>
+    </string-array>
+    <string-array name="library">
+        <item>The Hitchhikers Guide</item>
+        <item>The Restaurant at the End</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Douglas Adams</item>
+        <item>Douglas Adams</item>
+    </string-array>
+    <string name="remove_button">Remove Book</string>
+    <string name="edit_button">Edit Book</string>
+    <string name="view_notes">View Notes</string>
+    <string name="isbn_hint">ISBN</string>
+    <string name="genre_hint">Genre</string>
+    <string name="year_published_hint">Year Published</string>
+    <string name="optional_label_ed">Optional:</string>
+    <string name="title_label_vb">Title:</string>
+    <string name="author_label_vb">Author:</string>
+    <string name="pages_label_vb">Pages:</string>
+    <string name="published_label_vb">Published:</string>
+    <string name="status_label_vb">Status:</string>
+    <string name="isbn_label_vb">ISBN:</string>
+    <string name="view_read_history">Read History</string>
+    <!--strings for the read history-->
+    <string name="read_history">Your read history</string>
+    <string name="read_history_subtitle">Touch a book cover or title to view notes and details</string>
+    <string name="start_date1">Started on: 01/01/2021</string>
+    <string name="finish_date1">Finished on: 02/02/2021</string>
+    <string name="your_rating">Your rating:</string>
+    <!--strings for the scan book activity-->
+    <string name="add_new_by_scanning">Adding a new book by scanning</string>
+    <string name="instructions">Centre your camera on the Barcode of the book you wish to scan</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="cancel_scan">Cancel Scan</string>
+
+</resources>
